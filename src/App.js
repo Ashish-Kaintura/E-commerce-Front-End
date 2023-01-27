@@ -11,7 +11,7 @@ import UpdateComponent from './Component/UpdateComponent';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
+     <BrowserRouter basename="/E-commerce-front-end">
      <Navbar/>
      {/* <h1 style={{color:"blue",textAlign:"center",marginTop:"20px"}}>E-Dashvoard</h1> */}
       <Routes>
